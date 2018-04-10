@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright (C) 2018 Alain M. <alain23@protonmail.com> -->
 <component type="desktop">
-  <id>com.github.cassidyjames.palette.desktop</id>
+  <id>com.github.alainm23.gameping-indicator</id>
   <metadata_license>CC0</metadata_license>
   <project_license>GPL-3.0+</project_license>
   <name>GamePing Indicator</name>
@@ -21,7 +21,7 @@
   </releases>
   <screenshots>
     <screenshot type="default">
-      <image></image>
+      <image>https://raw.githubusercontent.com/alainm23/gameping-indicator/master/data/screenshot/screenshot-1.png</image>
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.1">
@@ -54,9 +54,9 @@
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
   <developer_name>Alain M.</developer_name>
-  <url type="homepage"></url>
-  <url type="bugtracker"></url>
-  <url type="translate"></url>
+  <url type="homepage">https://github.com/alainm23/gameping-indicator</url>
+  <url type="bugtracker">https://github.com/alainm23/gameping-indicator/issues</url>
+  <url type="translate">https://github.com/alainm23/gameping-indicator/issues</url>
   <custom>
     <value key="x-appcenter-color-primary">#1a1a1a</value>
     <value key="x-appcenter-color-primary-text">#fafafa</value>
