@@ -8,6 +8,9 @@ datadir = os.path.join(prefix, 'share')
 schemadir = os.path.join(prefix, 'share', 'glib-2.0', 'schemas')
 
 if not os.environ.get('DESTDIR'):
+    print('Compiling gsettings schemas...')
+    subprocess.call(['glib-compile-schemas', schemadir])
+
     print('Updating icon cache...')
     icon_cache_dir = os.path.join(datadir, 'icons', 'hicolor')
     if not os.path.exists(icon_cache_dir):

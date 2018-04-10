@@ -32,7 +32,7 @@ shared_module(
         wingpanel_dep
     ],
     install: true,
-    install_dir : get_option('libdir') + '/wingpanel'# wingpanel_dep.get_pkgconfig_variable('indicatorsdir')
+    install_dir : get_option('libdir') + '/wingpanel'
 )
 
 subdir('data')
