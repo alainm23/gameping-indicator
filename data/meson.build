@@ -23,6 +23,6 @@ install_data(
 )
 
 install_data(
-	'com.github.alainm23.gameping',
+	'com.github.alainm23.gameping-indicator',
     install_dir: get_option('bindir')
 )
