@@ -1,5 +1,4 @@
-project('com.github.alainm23.gameping', 'vala', 'c',
-    version: '0.0.1')
+project('com.github.alainm23.gameping', 'vala', 'c')
 
 gettext_name = meson.project_name() + '-indicator'
 gnome = import('gnome')

@@ -25,4 +25,4 @@ override_dh_auto_test:
 	cd debian/build && ninja test
 
 override_dh_auto_install:
-	cd debian/build && DESTDIR=${CURDIR}/debian/com.github.alainm23.gameping-indicator ninja install
+	cd debian/build && DESTDIR=${CURDIR}/debian/com.github.alainm23.gameping ninja install

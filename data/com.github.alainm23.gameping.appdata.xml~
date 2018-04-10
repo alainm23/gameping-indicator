@@ -10,7 +10,7 @@
     <p>See the latency of your favorite online video games without having to enter the game and in real time.</p>
   </description>
   <provides>
-    <binary>com.github.alainm23.gameping-indicator</binary>
+    <binary>com.github.alainm23.gameping</binary>
   </provides>
   ​<releases>
     <release version="0.0.5" date="2018-04-10">

@@ -10,7 +10,7 @@ Build-Depends: debhelper (>= 10.2.2),
                valac (>= 0.36.12),
                libwingpanel-2.0-dev,
                libgranite-dev
-Standards-Version: 3.9.7
+Standards-Version: 3.9.6
 
 Package: com.github.alainm23.gameping-indicator
 Architecture: any
