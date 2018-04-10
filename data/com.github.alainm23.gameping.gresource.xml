@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/com/github/alainm23/gameping-indicator">
+  <gresource prefix="/com/github/alainm23/gameping">
 
     <file alias="application.css" compressed="true">application.css</file>
   	<file alias="gameping-dota2.svg" compressed="true">resources/gameping-dota2.svg</file>

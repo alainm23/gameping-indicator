@@ -1,4 +1,0 @@
-#!/bin/bash
-
-sleep 0.4
-wingpanel --toggle-indicator=com.github.alainm23.gameping-indicator

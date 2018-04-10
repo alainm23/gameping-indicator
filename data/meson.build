@@ -13,16 +13,16 @@ foreach i : icon_sizes
 endforeach
 
 install_data(
-    meson.project_name() + '.desktop',
+    'com.github.alainm23.gameping.desktop',
     install_dir: join_paths(get_option('datadir'), 'applications')
 )
 
 install_data(
-    meson.project_name() + '.appdata.xml',
+    'com.github.alainm23.gameping.appdata.xml',
     install_dir: join_paths(get_option('datadir'), 'metainfo')
 )
 
 install_data(
-	meson.project_name(),
+	'com.github.alainm23.gameping',
     install_dir: get_option('bindir')
 )

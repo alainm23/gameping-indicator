@@ -28,14 +28,14 @@ public class GamePing.Indicator : Wingpanel.Indicator {
 
     public Indicator () {
         
-        Object (code_name : "com.github.alainm23.gameping-indicator",
+        Object (code_name : "com.github.alainm23.gameping",
                 display_name : _("GamePing"), 
                 description: _("GamePing Indicator")); 
 
         visible = true;
 
         weak Gtk.IconTheme default_theme = Gtk.IconTheme.get_default ();
-        default_theme.add_resource_path ("/com/github/alainm23/gameping-indicator");
+        default_theme.add_resource_path ("/com/github/alainm23/gameping");
     
     }
 
