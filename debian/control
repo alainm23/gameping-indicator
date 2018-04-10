@@ -1,4 +1,4 @@
-Source: com.github.alainm23.gameping
+Source: com.github.alainm23.gameping-indicator
 Section: x11
 Priority: extra
 Maintainer: Alain M. <alain23@protonmail.com>
@@ -12,7 +12,7 @@ Build-Depends: debhelper (>= 10.2.2),
                libgranite-dev
 Standards-Version: 3.9.7
 
-Package: com.github.alainm23.gameping
+Package: com.github.alainm23.gameping-indicator
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
 Description: GamePing Indicator
