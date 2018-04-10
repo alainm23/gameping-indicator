@@ -1,0 +1,20 @@
+Source: com.github.alainm23.gameping
+Section: x11
+Priority: extra
+Maintainer: Alain M. <alain23@protonmail.com>
+Build-Depends: debhelper (>= 10.2.2),
+               appstream,
+               meson,
+               desktop-file-utils,
+               gettext,
+               valac (>= 0.36.12),
+               libwingpanel-2.0-dev,
+               libgranite-dev
+Standards-Version: 3.9.7
+
+Package: com.github.alainm23.gameping
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends},
+Description: GamePing Indicator
+ Get the latency of your favorite videogames.
+
