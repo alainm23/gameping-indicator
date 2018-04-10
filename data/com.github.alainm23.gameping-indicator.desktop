@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=GamePing Indicator
+Comment=Get the latency of your favorite videogames
+GenericName=GamePing Indicator
+Exec=com.github.alainm23.gameping-indicator
+Icon=com.github.alainm23.gameping-indicator
+Terminal=false
+Categories=GNOME;GTK;Utility
