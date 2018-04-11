@@ -1,10 +1,9 @@
-project('com.github.alainm23.gameping', 'vala', 'c')
+project('com.github.alainm23.gameping-indicator', 'vala', 'c')
 
-gettext_name = meson.project_name() + '-indicator'
 gnome = import('gnome')
 i18n = import('i18n')
 
-add_global_arguments('-DGETTEXT_PACKAGE="@0@"'.format(gettext_name), language:'c')
+add_global_arguments('-DGETTEXT_PACKAGE="@0@"'.format('com.github.alainm23.gameping-indicator'), language:'c')
 
 asresources = gnome.compile_resources(
     'as-resources', 'data/com.github.alainm23.gameping-indicator.gresource.xml',
