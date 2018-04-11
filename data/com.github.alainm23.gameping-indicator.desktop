@@ -6,4 +6,4 @@ GenericName=GamePing Indicator
 Exec=com.github.alainm23.gameping %U
 Icon=com.github.alainm23.gameping-indicator
 Terminal=false
-Categories=GNOME;GTK;Utility
+Categories=GNOME;GTK;Utility;
