@@ -13,12 +13,12 @@ foreach i : icon_sizes
 endforeach
 
 install_data(
-    'com.github.alainm23.gameping.desktop',
+    'com.github.alainm23.gameping-indicator.desktop',
     install_dir: join_paths(get_option('datadir'), 'applications')
 )
 
 install_data(
-    'com.github.alainm23.gameping.appdata.xml',
+    'com.github.alainm23.gameping-indicator.appdata.xml',
     install_dir: join_paths(get_option('datadir'), 'metainfo')
 )
 

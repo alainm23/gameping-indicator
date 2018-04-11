@@ -7,7 +7,7 @@ i18n = import('i18n')
 add_global_arguments('-DGETTEXT_PACKAGE="@0@"'.format(gettext_name), language:'c')
 
 asresources = gnome.compile_resources(
-    'as-resources', 'data/' + meson.project_name() + '.gresource.xml',
+    'as-resources', 'data/com.github.alainm23.gameping-indicator.gresource.xml',
     source_dir: 'data',
     c_name: 'as'
 )
